@@ -43,6 +43,7 @@ function validate() {
                 if (!ckStringName.test(name)) {
                     errorMsg.push(input.placeholder + ' cannot contain special characters.');
                 }
+                document.getElementById('name').value = name;
             }
             if (input.getAttribute('id') == 'email-01') {                           //Validating Emails file value
                 var email = document.getElementById('email-01').value;
