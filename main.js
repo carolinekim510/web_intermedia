@@ -82,7 +82,7 @@ sendBtn.onclick = function send() {
     if (errorMsg.length > 0){
         document.getElementById('answer-area').innerText = errorMsg.join('\n');
     } else {
-        document.forms["contact-form"].submit();
+        document.forms["names-form"].submit();
     }
 };
 
