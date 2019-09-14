@@ -1,0 +1,8 @@
+<!DOCTYPE html> - Declation of document type
+<html> - Beginning of html
+<head> - Header of the page, won't show on  window
+<title> - Title of the page, usually shows on tab
+<body> - body of the page, anything that are typed in this part will show on window
+<br>  - skips the line, line break
+<center> - places the elements to center of the page
+<h1> - Heading 1 : Font style
