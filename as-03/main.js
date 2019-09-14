@@ -6,6 +6,8 @@ Purpose: Create a contact form with proper client side validation
 Notes: Part 1
 - validate() functions do all handling as well.
 * It validates all the fields then submits the form.
+* //2d comment add: There were errors caused by the names, class and IDs of the attributes. I realized that the anonymous functions were too similar to my codes,
+* I re-named them and had corrected.  It is working as it should be.
 *********************************************************
 */
 
