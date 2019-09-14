@@ -1,25 +1,59 @@
-<!-- ****************************************************
+<!--
+****************************************************
 Name: Caroline Kim
-Assignment: 01
-Purpose: Introductory Assignment
-Notes:
-********************************************************* -->
+Assignment: 03
+Purpose: Create a contact form with proper client side validation
+Notes: Part 1
+*********************************************************
+-->
 
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>My Page</title>
-</head>
-<body>
-  <br>
-  <center>
-    <h1>
-      This is my first attempt to change the file via git.
-        <br> My second commit then to push.
-      <br> I added via terminal too.
-      <br> This is FUN.
-      <br> LAST PUSH!!!
-    </h1>
-  </center>
-  </body>
+    <head>
+        <title>Contact Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="main.css" rel="stylesheet">
+        <link rel="icon" href="favicon.ico" type="image/ico">
+    </head>
+    <body>
+        <div class="form-container">
+            <div id="msg">
+                <br>
+            </div>
+            <div id="form-div">
+                <!-- Your form goes here -->
+                <form id="contact-form" name="names-form" action="email.php" method="post" >
+                    <div id='ss'></div>
+                    <div id="answer-area"></div>
+                    <div class="form-group">
+                        <!-- Name: -->
+                        <input type="text" placeholder="Your Name" class="contact-form" maxlength="64" id="name">
+                    </div>
+                    <div class="form-group">
+                        <!-- Return Email: -->
+                        <input type="email" placeholder="Return Email" class="contact-form" maxlength="64" id="email-01">
+                    </div>
+                    <div class="form-group">
+                        <!-- Re-enter Email: -->
+                        <input type="email" placeholder="Re-Enter Email" class="contact-form" maxlength="64" id="email-02">
+                    </div>
+                    <div class="form-group">
+                        <!-- Subject -->
+                        <input type="text" placeholder="Subject" class="contact-form" maxlength="64" id="subject">
+                    </div>
+                    <div class="form-group">
+                        <!-- Message: -->
+                        <textarea placeholder="Message" class="contact-form" id="message"></textarea>
+                    </div>
+                    <div class="button">
+                        <button id="send" type="button">Send</button>
+                        <button id="clear" type="button">Clear</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
 </html>
