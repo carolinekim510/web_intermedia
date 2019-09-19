@@ -1,0 +1,21 @@
+/*
+****************************************************
+Name: Caroline Kim
+Assignment: 03
+Purpose: Create a contact form with proper client side validation
+Notes: Part 1
+*********************************************************
+*/
+
+/* mobile css goes here */
+
+html, body {
+    height: auto;
+    margin: auto;
+    padding: 0;
+    font-family:  'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #49515a;
+    background-color: #F9F9F5;
+}
